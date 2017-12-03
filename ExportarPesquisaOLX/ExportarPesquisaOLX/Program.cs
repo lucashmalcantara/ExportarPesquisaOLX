@@ -60,7 +60,7 @@ namespace ExportarPesquisaOLX
                 if (string.IsNullOrEmpty(linkPartida))
                     throw new Exception("Parâmero Link Partida está vazio ou nulo.");
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 Console.WriteLine("[ERRO] Parâmetro do link de partida para a pesquisa não informado ou inválido.");
 
